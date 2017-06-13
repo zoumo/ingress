@@ -1,0 +1,37 @@
+{
+	"comment": "",
+	"ignore": "",
+	"package": [
+		{
+			"checksumSHA1": "e6yzSIwLwJV0tb2YQupLL0FO1BM=",
+			"path": "github.com/denverdino/aliyungo/common",
+			"revision": "de2aa7a52d6a8988300b2837b0ab19f1b3a8ffdb",
+			"revisionTime": "2017-02-15T07:17:47Z"
+		},
+		{
+			"checksumSHA1": "0CYDrMmwz43MoOXzTaXRXHBLbCk=",
+			"path": "github.com/denverdino/aliyungo/dns",
+			"revision": "de2aa7a52d6a8988300b2837b0ab19f1b3a8ffdb",
+			"revisionTime": "2017-02-15T07:17:47Z"
+		},
+		{
+			"checksumSHA1": "Hs/lni7/YoksaGofKbnLTb4kPRc=",
+			"path": "github.com/denverdino/aliyungo/ecs",
+			"revision": "de2aa7a52d6a8988300b2837b0ab19f1b3a8ffdb",
+			"revisionTime": "2017-02-15T07:17:47Z"
+		},
+		{
+			"checksumSHA1": "JcqIRT1u/rsBOedubJkbL31K1qE=",
+			"path": "github.com/denverdino/aliyungo/slb",
+			"revision": "de2aa7a52d6a8988300b2837b0ab19f1b3a8ffdb",
+			"revisionTime": "2017-02-15T07:17:47Z"
+		},
+		{
+			"checksumSHA1": "QwEcdBi8NQNdIIffQeAoRuko/Dw=",
+			"path": "github.com/denverdino/aliyungo/util",
+			"revision": "de2aa7a52d6a8988300b2837b0ab19f1b3a8ffdb",
+			"revisionTime": "2017-02-15T07:17:47Z"
+		}
+	],
+	"rootPath": "github.com/caicloud/ingress-controller/aliyun"
+}
