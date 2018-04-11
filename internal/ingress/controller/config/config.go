@@ -538,7 +538,7 @@ func NewDefault() Configuration {
 		ServerNameHashMaxSize:      1024,
 		ProxyHeadersHashMaxSize:    512,
 		ProxyHeadersHashBucketSize: 64,
-		ProxyStreamResponses:       1,
+		ProxyStreamResponses:       0,
 		ShowServerTokens:           true,
 		SSLBufferSize:              sslBufferSize,
 		SSLCiphers:                 sslCiphers,

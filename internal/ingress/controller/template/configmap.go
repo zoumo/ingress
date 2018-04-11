@@ -123,7 +123,7 @@ func ReadConfig(src map[string]string) config.Configuration {
 		}
 	}
 
-	streamResponses := 1
+	streamResponses := 0
 	if val, ok := conf[proxyStreamResponses]; ok {
 		delete(conf, proxyStreamResponses)
 		j, err := strconv.Atoi(val)
