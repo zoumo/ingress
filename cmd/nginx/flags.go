@@ -118,7 +118,7 @@ func parseFlags() (bool, *controller.Configuration, error) {
 		defServerPort = flags.Int("default-server-port", 8181, `Default port to use for exposing the default server (catch all)`)
 		healthzPort   = flags.Int("healthz-port", 10254, "port for healthz endpoint.")
 
-		annotationsPrefix = flags.String("annotations-prefix", "nginx.ingress.kubernetes.io", `Prefix of the ingress annotations.`)
+		annotationsPrefix = flags.String("annotations-prefix", "ingress.kubernetes.io", `Prefix of the ingress annotations.`)
 
 		enableSSLChainCompletion = flags.Bool("enable-ssl-chain-completion", true,
 			`Defines if the nginx ingress controller should check the secrets for missing intermediate CA certificates.
